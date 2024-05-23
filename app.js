@@ -57,6 +57,6 @@ startGameBtn.addEventListener('click', () => {
     const playerSelection = getPlayerChoice();
     const computerSelection = getComputerChoice();
     const winner = determineWinner(computerSelection, playerSelection);
-    alert('Winner: ' + winner + `\nPlayer choice: ${playerSelection}. Computer choice: ${computerSelection}`);
+    alert('Winner: ' + winner + `\n\nPlayer's choice: ${playerSelection}. Computer's choice: ${computerSelection}`);
     gameIsRunning = false;
 });
